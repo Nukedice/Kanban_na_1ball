@@ -1,0 +1,11 @@
+.task {
+    width: 85%;
+    background-color: #fff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 16px 0 7px 11px;
+    cursor: pointer;
+    border-radius: 5px;
+}

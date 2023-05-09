@@ -1,0 +1,22 @@
+.main {
+    height: 590px;
+    background-color: #0079BF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.tasklist {
+    background-color: #EBECF0;
+    border-radius: 10px;
+    width: 282px;
+    margin: 20px 0 auto 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  }

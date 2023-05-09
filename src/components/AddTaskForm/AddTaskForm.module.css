@@ -1,0 +1,23 @@
+.btn {
+    background-color: #0079BF;
+    border-radius: 5px;
+    border: none;
+    width: 102px;
+    height: 29px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin: 16px 0 7px 11px;
+    cursor: pointer;
+}
+
+.input {
+    width: 85%;
+    height: 35px;
+    margin-left: 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 3px;
+}

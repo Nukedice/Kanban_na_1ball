@@ -1,0 +1,71 @@
+.dropBtn {
+    padding-right: 30px;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: #0067A3;
+    border: none;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: 20px;
+
+}
+.dropBtn:hover {
+    color: gray;
+}
+.dropBtn:active {
+    transform: rotate(180deg);
+    transform-origin: top ;
+    top:35px;
+    right: 8px
+
+}
+
+.container {
+    height: 55px;
+    width: 115px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+
+.menu {
+    height: 60px;
+    width: 134px;
+    background-color: #fff;
+    list-style: none;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 80px;
+    position: absolute;
+    right: 0;
+    top: -24px
+}
+
+.dropItem {
+    height: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.dropItem:hover {
+    background-color: lightslategray;
+    border-radius: 5px;
+}
+
+.profile {
+    width: 39px;
+    height: 39px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    border: 2px solid white;
+    top: 8px;
+    cursor: pointer;
+}

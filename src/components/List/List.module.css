@@ -1,0 +1,57 @@
+.list {
+    background-color: #EBECF0;
+    border-radius: 10px;
+    width: 282px;
+    margin: 20px 0 auto 20px;
+}
+
+.listTitle {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    padding: 20px 0 0 20px;
+}
+
+.task {
+	background: #fff;
+	color: #000;
+	margin: 7px 0;
+	padding: 8px;
+	border-radius: 5px;
+    width: 85%;
+    margin: auto;
+}
+
+.task:hover {
+	text-decoration: underline;
+}
+
+.taskLink {
+	text-decoration: none;
+}
+
+.addButton {
+	background: none;
+	border: none;
+	appearance: none;
+	font-size: 15px;
+	color: #737373;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.addButton:hover {
+	color: #000;
+}
+.noTask {
+    margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .list {
+       width: 90%;
+    }
+  }

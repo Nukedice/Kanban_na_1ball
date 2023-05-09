@@ -1,0 +1,27 @@
+.footer {
+  height: 55px;
+  background-color: #0067A3;
+  color: #ffffff;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  font-size: 18px;
+  position: relative;
+}
+
+.footer-copyright {
+  justify-content: flex-end;
+  position: absolute;
+  right: 20px;
+}
+.footer-item {
+  margin-right: 36px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .footer {
+    display: none;
+  }
+}
